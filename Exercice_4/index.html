@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="testCtrl" lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <!--  formater la variable pi en monnaie. -->
+      <!-- {{ input | currency : symbol : fractionSize}} -->
+      {{pi | currency : "€"}}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="testCtrl" lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <!-- n'afficher que les 150 premiers caractères de la variable article et la mettre en majuscules. -->
+{{ article | limitTo : 150 | uppercase}}
+    </div>
+  </body>
+</html>

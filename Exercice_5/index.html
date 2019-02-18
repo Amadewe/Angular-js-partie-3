@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="testCtrl" lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <!--  n'afficher que les 150 premiers caractères de la variable article. -->
+      {{ article | limitTo : 150 }}
+      <!-- {{ input | limitTo : limit : begin }} -->
+      <!-- limitTo : pour limiter les entrées d'un tableau ou découper une chaîne de caractères,  -->
+    </div>
+  </body>
+</html>
